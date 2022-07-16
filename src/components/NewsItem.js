@@ -6,7 +6,7 @@ export class NewsItem extends Component {
     return (
       <div className="my-3">
         <div className="card">
-          <img src={!imageUrl?"https://pbs.twimg.com/profile_images/1533730555036020736/LzCjkDVA_400x400.jpg":imageUrl} className="card-img-top" alt="..." />
+          <img src={!imageUrl?"https://media.istockphoto.com/photos/news-television-studio-picture-id1064110466?k=20&m=1064110466&s=612x612&w=0&h=k9xcIkdXoLk9f84JghhWq7jqMziSa1te8UqWZkmrwKo=":imageUrl} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title">{title}</h5>
             <p className="card-text">{description}</p>
